@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Fake Wordle</title>
+    <!-- loads our own CSS file -->
+    <link rel="stylesheet" href="wordlecss.css" />
+  </head>
+  <body>
+
+    <h1>Fake Wordle</h1>
+    <div id = "gameover">
+        <div id="win">You win!</div>
+        <div id="endgame"></div>
+        <button id="playAgain">Play Again</button>
+    </div>
+
+    <table id="table">
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+    </table>
+    <div id="keyboard">
+            <table>
+                <tr>
+                    <td value=Q>Q</td>
+                    <td value="W">W</td>
+                    <td value="E">E</td>
+                    <td value="R">R</td>
+                    <td value="T">T</td>
+                    <td value="Y">Y</td>
+                    <td value="U">U</td>
+                    <td value="I">I</td>
+                    <td value="O">O</td>
+                    <td value="P">P</td>
+                </tr>
+            </table>
+            <table >
+                <tr>
+                    <td value="A">A</td>
+                    <td value="S">S</td>
+                    <td value="D">D</td>
+                    <td value="F">F</td>
+                    <td value="G">G</td>
+                    <td value="H">H</td>
+                    <td value="J">J</td>
+                    <td value="K">K</td>
+                    <td value="L">L</td>
+                </tr>
+            </table>
+            <table>
+                <tr>
+                    <td value="Z">Z</td> 
+                    <td value="X">X</td>
+                    <td value="C">C</td>
+                    <td value="V">V</td>
+                    <td value="B">B</td>
+                    <td value="N">N</td>
+                    <td value="M">M</td>
+                </tr>
+                </table>
+        
+
+    </div>
+    <div id ="buttons">
+        <button id="submit">Submit</button>
+        <button id="delete">Delete</button>
+    </div>
+  </body>
+  
+  
+  <!-- loads our JavaScript file -->
+  <script type="text/javascript" src="wordlejs.js"></script>
+</html>
