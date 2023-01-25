@@ -62,8 +62,8 @@ class Wordle{
                 for (let i =0; i < 5; i++){
                     this.table.children[0].children[this.try].children[i].style.backgroundColor = 'green';
                 }
-                document.getElementById('gameover').style.display = "block";
-                document.getElementById('win').style.display = "block";
+                document.getElementById('gameover').style.display = "flex";
+                document.getElementById('win').style.display = "flex";
                 this.isPlaying = false;
             }
             else{
@@ -88,8 +88,8 @@ class Wordle{
 
         }
         if (this.try >= 5){
-            document.getElementById('gameover').style.display = "block";
-            document.getElementById('endgame').style.display = "block";
+            document.getElementById('gameover').style.display = "flex";
+            document.getElementById('endgame').style.display = "flex";
             document.getElementById('endgame').innerHTML = `You lose! The word was ${this.word}`;
             this.isPlaying = false;
         }

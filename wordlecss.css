@@ -58,4 +58,7 @@ button:hover{
 
 #gameover,#endgame, #win{
     display:none;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 1rem;
 }
